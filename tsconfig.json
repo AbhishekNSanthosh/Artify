@@ -23,7 +23,7 @@
       "@app/*": ["./src/app/*"],
       "@api/*": ["./src/api/*"],
       "@widgets/*": ["./src/widgets/*"],
-      "@lib/*": ["src/common/libs/*"],
+      "@libs/*": ["./src/common/libs/*"],
       "@font/*": ["./src/common/font/*"],
       "@core/*": ["./src/common/core/*"],
       "@utils/*": ["./src/common/utils/*"],

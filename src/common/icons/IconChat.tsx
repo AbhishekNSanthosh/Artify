@@ -1,4 +1,4 @@
-import { IconProps } from "@lib/types";
+import { IconProps } from "@libs/types";
 import React from "react";
 
 const IconMail: React.FC<IconProps> = (props) => {

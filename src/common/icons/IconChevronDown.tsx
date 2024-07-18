@@ -1,7 +1,7 @@
 
 
 import React from "react";
-import { IconProps } from "@lib/types";
+import { IconProps } from "@libs/types";
 
 export default function IconChevronDown(props: IconProps) {
   return (
