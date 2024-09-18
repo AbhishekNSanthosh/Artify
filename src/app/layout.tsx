@@ -1,6 +1,7 @@
 import React from "react";
 import type { Metadata } from "next";
 import "@styles/scss/main.scss";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,7 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>{children}
+        <Image src={'/whatsapp.png'} height={70} width={70} alt="" className="fixed right-[20px]"/>
+      </body>
     </html>
   );
 }
