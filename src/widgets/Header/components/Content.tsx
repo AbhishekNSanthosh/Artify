@@ -9,7 +9,7 @@ export default function HeaderContent() {
       </div>
       <div className="flex items-center justify-center gap-[4vw]">
         {navitems?.map((item) => (
-          <span className="">{item?.title}</span>
+          <span className="" key={item?.title}>{item?.title}</span>
         ))}
       </div>
     </div>
